@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Assignment 5date</title>
+</head>
+<style type="text/css">
+	body{
+/*		background-color: darkblue;*/
+	}
+	.container{
+		width: 100%;
+		height: 480PX;
+		display: flex;
+		flex-direction: row;
+		background-color: darkblue;
+	}
+	.container1{
+		width: 45%;
+		height: 480px;
+		direction: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+	.container1 h1{
+		color: white;
+		font-size: 65px;
+		float: right;
+		margin-right: 60px;
+		margin-top: 60px;
+	}
+	.container1 p{
+		color: white;
+		font-size: 30px;
+		float: right;
+		margin-right: 45px;
+		margin-top: -20px;
+	}
+	.container11{
+		height: 300px;
+		width: 100%;
+	}
+	.container12{
+		width: 100%;
+		height: 200px;
+		margin-top: -20px;
+	}
+	.container2{
+		width: 55%;
+		height: 480px;
+	}
+	.container2 img{
+		height: 430px;
+		margin-top: 15px;
+		margin-left: 60px;
+	}
+	.container3{
+		text-align: center;
+	}
+	.container3 h1{
+		font-size: 60px;
+	}
+	.container3 p{
+		font-size: 20px;
+		margin-top: -26px;
+	}
+	.container4{
+		height: 400px;
+		width: 100%;
+		margin-top: 90px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+	}
+	.box41{
+		height: 350px;
+		width: 14%;
+		background-color: blue;
+		border-radius: 20px;
+		margin-top: 26px;
+		margin-left: 8px;
+		background-image: url(images/b1.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	.box41:hover{
+		background-image: url(images/c1.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box42{
+		height: 350px;
+		width: 14%;
+		background-color: blue;
+		border-radius: 20px;
+		margin-top: 26px;
+		margin-left: 8px;
+		background-image: url(images/b2.jpg);
+		background-position: center;
+		background-size: cover;
+
+	}
+	.box42:hover{
+		background-image: url(images/c2.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box43{
+		height: 350px;
+		width: 14%;
+		background-color: blue;
+		border-radius: 20px;
+		margin-top: 26px;
+		margin-left: 8px;
+		background-image: url(images/b3.jpg);
+		background-position: center;
+		background-size: cover;
+
+
+	}
+	.box43:hover{
+		background-image: url(images/c6.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box44{
+		height: 350px;
+		width: 14%;
+		background-color: blue;
+		border-radius: 20px;
+		margin-top: 26px;
+		margin-left: 8px;
+		background-image: url(images/b4.jpg);
+		background-position: center;
+		background-size: cover;
+
+
+	}
+	.box44:hover{
+		background-image: url(images/c4.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box45{
+		height: 350px;
+		width: 14%;
+		background-color: blue;
+		border-radius: 20px;
+		margin-top: 26px;
+		margin-left: 8px;
+		background-image: url(images/c5.jpg);
+		background-position: center;
+		background-size: cover;
+
+	}
+	.box45:hover{
+		background-image: url(images/b5.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box41 h2{
+		margin-left: 22px;
+	}
+	.box41 img{
+		height: 100%;
+		width: 100%;
+		margin-top: -50px;
+	}
+	.container5{
+		text-align: center;
+		margin-top: 150px;
+	}
+	.container5 h1{
+		font-size: 60px;
+	}
+	.container5 p{
+		font-size: 20px;
+		margin-top: -26px;
+	}
+	.container4 a{
+		text-decoration: none;
+		color:black;
+	}
+	.container6{
+		width: 80%;
+		height: 470px;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.box61{
+		width: 30%;
+		height: 450px;
+		margin-top: 20px;
+		border-radius: 10px;
+	}
+	.icon1{
+		height: 150px;
+		width: 150px;
+		color: red;
+		align-items: center;
+		font-size: 40px;
+		margin-top: -20px;
+		margin-left: 20px;
+	}
+	.container6 img{
+		width: 100%;
+		height: 235px;
+	}
+	.container6 h2{
+		margin-top: -110px;
+		margin-left: 10px;
+	}
+	.container6 p{
+		margin-top: -10px;
+		margin-left: 10px;
+	}
+	.container6 h1{
+		font-size: 30px;
+		margin-left: 10px;
+		margin-top: -15px;
+	}
+	.container6 .icon2{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.box611{
+		height: 30px;
+		width: 100%;
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row;
+	}
+	.box6111{
+		width: 10%;
+	}
+	.box6112{
+		width: 70%;
+	}
+	.box6113{
+		width: 20%;
+	}
+	.box611 p{
+		margin-top: 8px;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="container1">
+			<div class="container11">
+				<h1>The Easiest way<br>to get your new<br>Job</h1>
+			</div>
+			<div class="container12">
+				<p>Work with talented people with most <br>affordable price to get most out of your <br>time and cost.</p>
+			</div>	
+		</div>
+		<div class="container2">
+			<img src="images/a4.jpg">
+		</div>
+	</div>
+
+	<div class="container3">
+		<h1>Popular Categories</h1>
+		<p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets.<br> pontificate alternative architectures whereas iterate.</p>
+	</div>
+	<div class="container4">
+		<div class="box41"><h2>Customer Support</h2></div>
+		<div class="box42"><h2>Graphic Designing</h2> </div>
+		<div class="box43"><h2>Hosting</h2> </div>
+		<div class="box44"><h2><a href="DemandJump.html#myid">Link Building</a></h2> </div>
+		<div class="box45"><h2><a href="#popular-services">Go to Most Popular Services</a></h2> </div>
+	</div>
+	<div class="container5" id="popular-services">
+		<h1>Most popular services</h1>
+		<p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets.<br>pontificate alternative architectures whereas iterate.</p>
+	</div>
+	<div class="container6">
+		<div class="box61">
+			<img src="images/jss.jpg">
+			<div><i class="fa-sharp fa-solid fa-heart icon1"></i></div>
+			<h2>Ameer Hamza</h2>
+			<p>Delivery: 1-3days</p>
+			<h1>I will translate english<br>to japanese</h1>
+			<div class="box611">
+				<div class="box6111"><i class="fa-sharp fa-solid fa-tag icon2"></i></div>
+				<div class="box6112"><p>JavaScript</p></div>
+				<div class="box6113"><p>$50</p></div>
+			</div>
+		</div>
+		<div class="box61">
+			<img src="images/html.jpg">
+			<div><i class="fa-sharp fa-solid fa-camera icon1"></i></div>
+			<h2>Qamar Zaman</h2>
+			<p>Delivery: 1-3days</p>
+			<h1>I will explain HtML to<br>all of you</h1>
+			<div class="box611">
+				<div class="box6111"><i class="fa-sharp fa-solid fa-tag icon2"></i></div>
+				<div class="box6112"><p>HTML</p></div>
+				<div class="box6113"><p>$20</p></div>
+			</div>
+		</div>
+		<div class="box61">
+			<img src="images/css.jpg">
+			<div><i class="fa-sharp fa-solid fa-bookmark icon1"></i></div>
+			<h2>Ali Khalid</h2>
+			<p>Delivery: 1-3days</p>
+			<h1>I will explain css to<br>you in this price</h1>
+			<div class="box611">
+				<div class="box6111"><i class="fa-sharp fa-solid fa-tag icon2"></i></div>
+				<div class="box6112"><p>CSS</p></div>
+				<div class="box6113"><p>$20</p></div>
+			</div>
+		</div>	
+		<br>
+		
+	</div>
+	
+</body>
+</html>
+
+			

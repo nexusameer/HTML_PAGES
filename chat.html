@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Chat Application</title>
+    <style>
+        #chat-list {
+            max-height: 100vh;
+            overflow-y: auto;
+        }
+
+        #chat-box {
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Left Sidebar - Chat List -->
+        <div class="col-md-4">
+            <div class="p-3">
+                <h4>Chat List</h4>
+                <ul class="list-group" id="chat-list">
+                    <!-- Sample Chat List -->
+                    <li class="list-group-item">User 1</li>
+                    <li class="list-group-item">User 2</li>
+                    <!-- Add more chat users here -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content - Chat Box -->
+        <div class="col-md-8">
+            <div class="p-3">
+                <h4>Chat with <span id="selected-user">User</span></h4>
+                <div class="border rounded p-3" id="chat-box">
+                    <!-- Chat messages will be displayed here -->
+                    <!-- Example: -->
+                    <!-- <div class="message sent">Hello!</div> -->
+                    <!-- <div class="message received">Hi there!</div> -->
+                </div>
+                <div class="input-group mt-3">
+                    <input type="text" class="form-control" placeholder="Type your message..." id="message-input">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" id="send-btn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Add your custom JavaScript here -->
+
+</body>
+</html>

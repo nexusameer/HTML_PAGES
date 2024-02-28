@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>images hover</title>
+</head>
+<style>
+	.container{
+		height: 300px;
+        width : 100%;
+        background-color: darkred ;
+	}
+	.box{
+		width: 23.3%;
+		height: 280px;
+		background-image:url('images/a.jpg') ;
+        margin: 0.6%;
+        border : 2px solid white;
+        float : left;
+	}
+	
+	.box:hover{
+		background-image: url(images/b.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box1{
+		width: 23.3%;
+		height: 280px;
+		background-image:url('images/c.jpg') ;
+        margin: 0.6%;
+        border : 2px solid white;
+        float : left;
+	}
+	
+	.box1:hover{
+		background-image: url('images/d.jpg');
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box2{
+		width: 23.3%;
+		height: 280px;
+		background-image:url('images/e.jpg') ;
+        margin: 0.6%;
+        border : 2px solid white;
+        float : left;
+	}
+	
+	.box2:hover{
+		background-image: url(images/f.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.box3{
+		width: 23.3%;
+		height: 280px;
+		background-image:url('images/g.jpg') ;
+        margin: 0.6%;
+        border : 2px solid white;
+        float : left;
+	}
+	
+	.box3:hover{
+		background-image: url(images/h.jpg);
+		background-position: center;
+		background-size: cover;
+		transition: 1s;
+	}
+	.imageset{
+		float: left;
+
+
+	}
+	button{
+		height: 30px;
+		width :100px%;
+		margin-left: 100px;
+		 
+
+	}
+	.clear{
+		clear: both;
+	}
+	img{
+		height: 200px;
+		width: 24%;
+	}
+	</style>
+<body>
+<div class="container">
+	<div class="box"></div>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class ="clear"></div>
+</div>
+<div>
+	<img  src="images/a2.jpg">
+</div>
+<br>
+<button>Add to Cart</button>
+<br>
+</body>
+</html>

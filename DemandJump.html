@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Demand Jump</title>
+</head>
+<style type="text/css">
+	ul{
+		height: 60px;
+		position: sticky;
+		top: 0;
+	}
+	ul img{
+		height: 44px;
+		margin-top: 10px;
+	}
+	li{
+		float: right;
+		padding: 20px;
+		font-size: 18px;
+		list-style: none;
+	}
+	li a{
+	    text-decoration: none;
+	    color: black;
+
+	}
+	li a:hover{
+		transition: 0.9s;
+		background-color: black;
+		color: white;
+	}
+	li button{
+		height: 30px;
+		width: 100px;
+		margin-left: -30%;
+		margin-top: -13px;
+		color: white;
+		background-color: red;
+		border: none;
+		border-radius: 8px;
+	}
+	li button:hover{
+		background-color: mediumvioletred;
+		border-radius: 200px;
+	} 
+	.ixon{
+		margin-left: -100%;
+		color: red;
+	}
+	.container0 img{
+		width: 100%;
+	}
+	.container{
+		height: 5000px;
+		width: 100%;
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		margin-top: 50px;
+		z-index: -1;
+	}
+	.container1{
+		height: 400px;
+		width: 780px;
+		background-color: black;
+		background-image:urL(images/jump2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border: 2px solid black;
+		border-radius: 30px;
+			}
+	.container2{
+		height: 400px;
+		width: 780px;
+		background-color: black;
+		background-image:urL(images/jump1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border: 2px solid black;
+		border-radius: 30px;
+	}
+	.box1{
+		height: 100%;
+		width: 55%;
+		margin-left: 75px;
+	}
+	.box1 h1{
+		font-size: 30px;
+		text-decoration: none;
+	}
+	.box1 p{
+		margin-top: 10px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.box1 h3{
+		margin-left: 55px;
+	}
+	.box1 img{
+		width: 100%;
+	}
+	.box2{
+		height: 100%;
+		width: 35%;
+		display: flex;
+		flex-direction: column;
+		height: 2000px;
+	}
+	.box21{
+		height:240px;
+		width: 95%;
+		margin-left: 10px;
+	}
+	.box211{
+		height: 40px;
+		width: 100%;
+		background-color: skyblue;
+		margin-top: 0px;
+	}
+	.box211 h2{
+		padding: 5px;
+	}
+	.box212{
+		height: 35px;
+		width: 100%;
+		background-color: lightgray;
+		margin-top: 10px;
+	}
+	.box212 button{
+		height: 100%;
+		width: 100%;
+
+	}
+	button:hover{
+		transition: .9s;
+		color: white;
+		background-color: red;
+	}
+	.box212 h3{
+		margin-top: 4px;
+	}
+	.box22{
+		height: 605px;
+		width: 95%;
+		margin-left: 10px;
+		margin-top: 25px;
+	}
+	.box2 a{
+		color: red;
+		margin-left: -7px;
+		font-size: 22px;
+	}
+	.box3{
+		height: 500px;
+		width: 95%;
+		background-color: white;
+		margin-left: 10px;
+	}
+	.box3 h1{
+		font-size: 30px;
+		color: blue;
+	}
+	form{
+		height: 100%;
+		width: 90%;
+		margin-left: 2%;
+	}
+	input[type=text]{
+		padding: 3%;
+		width: 100%;
+		margin-top: 9px;
+		margin-bottom: 20px;
+
+	}
+	input[type=email]{
+		padding: 3%;
+		width: 100%;
+		margin-top: 9px;
+		margin-bottom: 20px;
+	}
+	label[for=name]{
+		font-size: 20px;
+	}
+	label[for=email]{
+		font-size: 20px;
+	}
+	.box3 button{
+		height: 40px;
+		width: 150px;
+		background-color: red;
+		color: white;
+		border: none;
+		border-radius: 8px;
+		margin-left: 27%;
+	}
+	.box1 button{
+		height: 40px;
+		width: 150px;
+		background-color: red;
+		color: whitesmoke;
+		text-align: center;
+		margin-left: 280px;
+		margin-top: 20px;
+		border-radius: 5px;
+		font-size: 20px;
+	}
+</style>
+<body>
+<ul>
+	<img src="images/demand.jpg">
+	<li><a href="#"><button>Try it free</button></a></li>
+	<li><i class="fa-solid fa-magnifying-glass ixon"></i></li>
+	<li><a href="#">Login</a></li>
+	<li><a href="#">Pricing</a></li>
+	<li><a href="https://www.demandjump.com/blog/17-best-website-ideas-for-beginners-unique-content-and-topics-ideas">Orignal Website"</a></li>
+	<li><a href="#">Resources</a></li>
+	<li><a href="#">Solutions</a></li>
+	<li><a href="#">Product</a></li>
+</ul>
+<div class="container0">
+	<img src="images/dumb3.jpg">
+</div>
+<div class="container">
+	<div class="box1">
+		<h1>17 Best Website Ideas For Beginners: Unique<br> Content and Topics Ideas</h1>
+		<p>October 6, 2021 •DJ Team</p>
+		<img src="images/jump.jpg">
+		<p align="jump">
+			Starting a new business can be challenging, but not for the reasons you think.<br>
+A lot of business owners get overwhelmed by the idea of having to set up their site.Luckily, you don't need to learn how to code to get<br> your site going. But there are still a lot of steps and things to learn.<br>
+
+In this article, we'll cover all the various types of websites you could build, site ideas to get your creative juices flowing, and <br>helpful tips on how to make this process a breeze.<br>
+
+Let's dive in.
+Most people believe that running the business, managing a team, and doing the financials is the hardest part. But for a lot of <br>entrepreneurs, the first hurdle is setting up the website.<br>
+		</p>
+		<h1>Website Ideas</h1>
+		<p>
+			First, let's talk about the type of website you need.<br>
+
+There are several main types of websites that you could create. Each type is going to have  own design and structural requirements and <br>its own unique purpose. Here are the main ones.<br>
+		</p>
+		<h1>1. E-commerce Websites</h1>
+		<p>
+			Any website that sells goods online is an e-commerce site. It could be a stand-alone store or a store that's just a small part <br> of the business (like the Google store that sells T-shirts and cups with the Google logo). <br>
+
+An e-commerce site usually consists of a homepage, category pages, products pages, and a checkout page. It also has various promotional <br>pages, a referral/loyalty program, and a customer service page where consumers go to get answers to their questions. <br>
+		</p>
+		<h1>2. Blogs</h1>
+		<p>
+			Blogs are one of the most popular types of websites on the internet. There are over 600 million blogs online today and <br>billions of blog posts. Blogs provide a very powerful mechanism for brands to increase brand awareness, tell their brand <br> story, attract readers through content marketing, and make money through affiliate marketing. The two most popular blogging<br>platforms are WordPress and Medium and many publications are built and run on them.
+		</p>
+		<h1>Website Ideas for Beginners</h1>
+		<p>Here are a few website ideas to give you even more inspiration when building your own site. Take<br> what you find interesting and applicable and leave the rest.</p>
+		<h1>1. Personal Blog</h1>
+		<p>One of the best ways to build an engaged audience online is to start your own blog. Choose a topic <br> that you are passionate about and knowledgeable about. Pick a blog topic by looking at similar blogs <br> or conducting some keyword research.
+			<div class="container1"></div>
+			<button>Try it free</button>
+		<h3>(DemandJump Idea Generator and Automated Pillar Page Strategy Tool)</h3>
+		<p>You can use a tool like DemandJump to generate website content ideas for your next post and to <br> optimize your content for search engines.</p>
+		<h1>2. Drop-Shipping Site</h1>
+		<p>A really popular way to sell products online is through drop-shipping. This involves sourcing your <br>products on a site like Alibaba and then have the manufacturer ship the product directly to your <br> consumers.</p>
+		<h1>3. Start an Online Course</h1>
+		<p>Another great way to promote yourself is by developing an online course. Creating video content is <br>much more affordable today than even a few years ago.</p>
+		<h1>4. Sell Handmade Items</h1>
+		<p>This one will take a bit more time and isn't for the faint of heart. It's for creators of products that <br> would like to take their hobby to the next level. You can also sell other people's handmade products <br>and make a commission.</p>
+		<h1>5. Local Events/Travel Destinations</h1>
+		<p>If you enjoy meeting people and traveling, then this idea is for you. Create a site where you not only <br> offer advice on the best local travel spots and tourist destinations, but you can also organize meetups <br>	 and local tours.</p>
+		<h1>Website Design Ideas</h1>
+		<p>
+			Creating a website can be quite challenging for beginners. Most people don't know where to start. They might want to start <br>with a simple website builder, but then realize that it doesn't have all the <br>features they need. A platform like WordPress or Magento can seem daunting to beginners. It's all<br> about figuring out what your needs are.
+		</p>
+		<p>Here are a few criteria to consider before picking your ideal website platform.<br>
+		Price - What is your monthly budget? <br>
+		Expertise - How savvy are you with web design or website building platforms?<br>
+		Goals - What are your goals? Do you want to set up an online shop? A blog? A review site?<br>
+		Integrations - Make sure the platform you're considering has all the integrations that you need. These could include integrations to <br>payment portals, email marketing tools, content syndication, or shopping carts.<br>
+		SEO - Remember to check the technical setup of the site. Does your platform have all the technical aspects of SEO set up? Will search <br>engines recognize and be able to easily crawl your site and rank it on relevant search results?</p>
+				
+		</p>
+		<h1>Website Content Made Simple <br> With DemandJump</h1>
+		<p>When building a website, you need a tool that can take you from content keyword research to results. <br> DemandJump automates the keyword research process.</p>
+		<div class="container2"></div>
+		<button>Try it free</button>
+	</div>
+	<div class="box2">
+		<div class="box21">
+			<div class="box211">
+				<h2 id="myid">FEATURED ARTICLES</h2>
+			</div>
+			<div class="box212">
+				<h3>What Are the 4 Stages of SEO?</h3>
+			</div>
+			<div class="box212">
+				<h3>Types of Web Writing</h3>
+			</div>
+			<div class="box212">
+				<h3>What Is B2B SaaS Content?</h3>
+			</div>	
+		</div>
+		<div class="box22">
+			<div class="box211">
+				<h2>CATEGORIES</h2>
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Attribution Tracking (16)</h3></button>
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Channel Optimization (11)</h3></button>		
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Consumer Insights (72)</h3></button>
+			</div>	
+			<div class="box212">
+				<button><h3 align="left">Content Marketing (244)</h3></button>
+			</div>	
+			<div class="box212">
+				<button><h3 align="left">Data Science (12)</h3></button>
+			</div>	
+			<div class="box212">
+				<button><h3 align="left">Digital Marketing (11)</h3></button>
+			</div>	
+			<div class="box212">
+				<button><h3 align="left">Digital Transformation (30)</h3></button>
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Enterprise (15)</h3></button>
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Lead Generation (15)</h3></button>
+			</div>
+			<div class="box212">
+				<button><h3 align="left">Market Intelligence (11)</h3></button>
+			</div>	
+			<a href="#">See All</a>
+		</div>
+		<div class="box3">
+			<form>
+				<h1>Get Your Free Content<br> Marketing Strategy Report</h1>
+				<label for="email">Bussiness Email</label>
+				<input type="email" placeholder="Your @Bussiness.com">
+				<label for="name">Keyword You Want to Rank for in Search Engines*</label>
+				<input type="text" placeholder="Limit 60 Characters">
+				<label for="name">Your Website</label>
+				<input type="text" placeholder="Yourwebsite.com">
+				<button>Get Insight</button>
+			</form>
+		
+	    </div>
+	</div>
+	
+</div>
+</body>
+</html>

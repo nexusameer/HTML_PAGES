@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>forms</title>
+</head>
+<style>
+	.container{
+		height: 400px;
+		width: 400px;
+		background-color: red;
+	}
+	form{
+		width: 70%;
+		margin-left: 15%;
+	}
+	input[type=text]{
+		padding: 7px;
+		width: 100%;
+	}
+	input[type=email]{
+		padding: 7px;
+		width: 100%;
+	}
+	textarea{
+		height: 120px;
+		width: 104%;
+	}
+	button{
+		padding: 10px;
+		width: 50%;
+		background-color: black;
+		color: white;
+		margin-left: 25%;
+
+	}
+
+</style>
+<body>
+<div class="container">
+	<form>
+		<label for="name">Name</label>
+		<input type="text" placeholder="your name">
+		<label for="name">Last Name</label>
+		<input type="text" placeholder="Last name">
+		<label for="email">email</label>
+		<input type="email" placeholder="your email">
+		<label for="subject">Subject</label>
+		<textarea>Write your message</textarea>
+		<button>Submit</button>
+	</form>
+</div>
+</body>
+</html>
